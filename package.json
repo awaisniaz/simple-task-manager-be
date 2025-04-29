@@ -1,0 +1,26 @@
+{
+  "name": "stmb",
+  "version": "1.0.0",
+  "description": "Simple Task manager backend implementation",
+  "main": "index.js",
+  "author": "muhammad awais niaz",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "start": "tsc && node dist/server.js"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "nodemon": "^3.1.10",
+    "ts-node-dev": "^2.0.0"
+  }
+}
