@@ -1,5 +1,5 @@
 {
-  "name": "stmb",
+  "name": "simple task manager backend",
   "version": "1.0.0",
   "description": "Simple Task manager backend implementation",
   "main": "index.js",
