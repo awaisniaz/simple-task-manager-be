@@ -9,8 +9,7 @@
     "lint": "eslint . --ext .js",
     "format": "prettier --write \"**/*.{js,json,md}\"",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "start": "tsc && node dist/server.js",
-    "prepare": "husky install"
+    "start": "tsc && node dist/server.js"
   },
   "dependencies": {
     "@types/node": "^22.15.3",
