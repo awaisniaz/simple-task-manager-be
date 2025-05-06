@@ -63,16 +63,15 @@ This project follows **Modular MVC + Service Layer**:
 
 task-manager-api/ ├── src/ │ ├── config/ # DB and environment setup │ ├── controllers/ # API request handlers (v1) │ ├── models/ # Mongoose schemas │ ├── routes/ # API routes (versioned) │ ├── services/ # Business logic │ ├── middlewares/ # Error, validation middleware │ ├── utils/ # Reusable utilities │ └── app.js # Express app initialization ├── .env # Environment variables ├── .gitignore ├── package.json └── README.md
 
-
 ## 🌐 API Endpoints (v1)
 
-| Method | Endpoint              | Description           |
-|--------|-----------------------|-----------------------|
-| GET    | `/api/v1/tasks`       | Get all tasks         |
-| GET    | `/api/v1/tasks/:id`   | Get task by ID        |
-| POST   | `/api/v1/tasks`       | Create a new task     |
-| PUT    | `/api/v1/tasks/:id`   | Update a task         |
-| DELETE | `/api/v1/tasks/:id`   | Delete a task         |
+| Method | Endpoint            | Description       |
+| ------ | ------------------- | ----------------- |
+| GET    | `/api/v1/tasks`     | Get all tasks     |
+| GET    | `/api/v1/tasks/:id` | Get task by ID    |
+| POST   | `/api/v1/tasks`     | Create a new task |
+| PUT    | `/api/v1/tasks/:id` | Update a task     |
+| DELETE | `/api/v1/tasks/:id` | Delete a task     |
 
 ### Task Schema
 
@@ -84,3 +83,4 @@ task-manager-api/ ├── src/ │ ├── config/ # DB and environment setu
   "status": "pending | completed",
   "dueDate": "2025-05-01T00:00:00.000Z"
 }
+```
